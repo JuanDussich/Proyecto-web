@@ -1,0 +1,272 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('./imagenes/66016461ed02f.avif');
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: left/top; 
+    margin: 0;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+#batallaMoscu, #invierno ,#defensaURSS ,#estrategiaGermana ,#laCapital{
+    background-color: #A96769;
+}
+
+#invasion, #planDeBatalla, #poderAereoAleman, #defensaPolaca,#invasionAPolonia {
+    background-color: #A96769;
+}
+
+#operacionBarbarroja, #Junio1941, #Alemanes, #URSS, #Despliegue{
+    background-color: #A96769;
+}
+
+#AtaqueAPearlHarbor, #PlanDeAtaque, #Objetivos, #Desarrollo, #oleadasDeAtaque{
+    background-color: #A96769;
+}
+
+#Overlord, #Day, #Aliados, #Reconocimiento{
+    background-color: #A96769;
+}
+
+#Descripcion, #Catalogo, #Segunda, #Primera, #Galeria{
+    background-color: #A96769;
+}
+
+.paginaTres{
+    background-image: url(./imagenes/sticker-png-world-war-ii-attack-on-pearl-harbor-united-states-of-america-quizlet-pearl-harbor-remembrance-day-airplane-vehicle-silhouette-world-war-ii-Photoroom.png) ;
+}
+.paginaDos{
+    background-image: url(./imagenes/klipartz.com.png);
+}
+.paginaUno{
+    background-image: url(./imagenes/avion.png.png);
+}
+
+header{
+    background-attachment: scroll;
+    background-repeat: no-repeat; 
+    background-position: top/left;
+    height: 280px;
+    background-size: contain;
+    margin: 0 auto;
+    width: 1300px;
+}
+
+header ul{
+    width: 600px;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+
+header ul li{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8px;
+}
+
+a{
+    color: #A96769;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #8A2BE2;
+    text-decoration: underline;
+}
+
+nav{
+    background-color:rgb(211,224,231,0.6) ;
+    height: 250px;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+}
+
+h1{
+    text-align: center;
+    height: 80px;
+    background-color: #78866b  ;
+    /*background-image: url(./imagenes/klipartz.com\ \(1\).png);
+    background-position: 80% center;
+    background-repeat: no-repeat;/**/
+}
+
+h1 , h3{
+    text-shadow: 1px 2px 2px white;
+    margin: 0;
+}
+
+h2 , h3{
+    text-align: center;
+    padding: 30px;
+}
+
+main{
+    width: 1000px; 
+    border-bottom: 1px solid dodgerblue;
+    margin: 130px auto 0;
+    border-color: 1px white;
+}
+
+div{
+    text-align: center;
+}
+
+img{
+    width: 380px;
+    height: 270px;
+}
+
+div ul{
+    text-align: center;
+    list-style: none;
+}
+
+
+p{
+    text-align: center;
+    padding: 15px 50px;
+    margin: 0;
+    font-style: italic;
+}
+
+
+section{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto ;
+    background-color: white;
+    border-bottom: 1px solid dodgerblue;
+}
+
+
+footer{
+    background-color:  rgb(211,224,231, 0.8) ;
+}
+
+footer ul{
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 30px 0;
+}
+
+footer li{
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+}
+
+
+.container{ 
+    display: flex;
+    justify-content:center; 
+    flex-wrap:wrap; 
+    gap: 16px; 
+} 
+
+.cards img{
+    width: 265px;
+    height: 300px;
+}
+
+.cards{
+    /*display:flex;*/
+    flex-direction:column;
+    justify-content:space-between;
+    height: 440px;
+    width: auto;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+}
+
+.titulo{
+
+    font-size: 24px;
+    padding: 10px 10px 0 10px;;
+}
+
+.cuerpo{
+
+    padding: 10px;
+    flex: 1 1 100%;
+}
+
+.pie{
+    background: #78866b;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+}
+
+.pie a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.pie a:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    /*content:""*/
+} 
+
+
+.articulo{
+    width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+    padding: 30px;
+    background-color: #fafafa;
+}
+
+.DivDeArticulo{
+    width: 400px;
+    margin-left: 10px;
+    padding: 10px;
+    font-style: italic;
+    color: black;
+    background-color: #78866b;
+    float: left;
+}
+
+
+figure{
+    float:left;
+    margin-left: 10px;
+    text-align:center;
+    width: 250px;
+    margin-top: 0px;
+    padding: 0px ;
+}
+
+.historia img{
+    height: 550px;
+}
+.videocent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    
+}
+.video1{
+    height: 250px;
+}
