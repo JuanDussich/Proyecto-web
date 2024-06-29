@@ -12,7 +12,7 @@ body {
     background-position: left/top; 
     margin: 0;
     background-repeat: no-repeat;
-    /* background-position: center; */
+    
 }
 
 #batallaMoscu, #invierno ,#defensaURSS ,#estrategiaGermana ,#laCapital{
@@ -223,7 +223,6 @@ footer li{
     bottom: 0;
     left: 0;
     z-index: 1;
-    /*content:""*/
 } 
 
 
